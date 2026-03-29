@@ -1,0 +1,28 @@
+name: Improvement
+description: Улучшение существующего
+title: "[Improvement] "
+labels: ["improvement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема
+      placeholder: "Что сейчас не так?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+      placeholder: "Как можно улучшить?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Влияние
+      placeholder: "Почему это важно?"
+    validations:
+      required: false
