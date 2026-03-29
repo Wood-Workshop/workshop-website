@@ -1,0 +1,38 @@
+name: QA Task
+description: Проверка функциональности
+title: "[QA] "
+labels: ["qa"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Что тестируем
+      placeholder: "front / back / flow"
+    validations:
+      required: true
+
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Чек-лист проверки
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: Результат
+      placeholder: "Что найдено?"
+    validations:
+      required: false
+
+  - type: input
+    id: related
+    attributes:
+      label: Связанные задачи
+      placeholder: "#123"
+    validations:
+      required: false
