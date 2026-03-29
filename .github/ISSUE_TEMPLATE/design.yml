@@ -7,7 +7,7 @@ body:
     id: what
     attributes:
       label: Что нужно задизайнить
-      placeholder: Например: карточка товара
+      placeholder: Дизайн карточки товара
     validations:
       required: true
 
