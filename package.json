@@ -1,0 +1,27 @@
+{
+  "name": "workshop-website",
+  "version": "1.0.0",
+  "description": "Учебно-боевой проект по разработке сайта мастерской на `Django + PostgreSQL + Django Templates + CSS + JS`.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wood-Workshop/workshop-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Wood-Workshop/workshop-website/issues"
+  },
+  "homepage": "https://github.com/Wood-Workshop/workshop-website#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
