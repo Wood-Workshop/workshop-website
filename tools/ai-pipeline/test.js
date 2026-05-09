@@ -1,16 +1,14 @@
-import { callLLM } from './utils/llmclient.js';
+import { designTokensAgent } from './agents/designTokensAgent.js';
 
 async function test() {
-    try {
-        const result = await callLLM(
-            "Ты полезный помощник.",
-            "Напиши короткое приветствие на русском языке в формате JSON: { \"message\": \"текст\" }",
-            true
-        );
-        console.dir(result, { depth: null });
-    } catch (error) {
-        console.error("Ошибка:", error.message);
-    }
+    console.log("🚀 Тестируем Design Tokens Agent...\n");
+
+    const result = await designTokensAgent(
+        "Создай дизайн-токены для главной страницы сайта мастерской. Стиль премиум, дерево и металл."
+    );
+
+    console.log("\n=== РЕЗУЛЬТАТ ===");
+    console.dir(result, { depth: null });
 }
 
 test();
