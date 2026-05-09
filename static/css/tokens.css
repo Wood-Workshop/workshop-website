@@ -1,0 +1,179 @@
+:root {
+
+  /* === Added by Design Tokens Agent === */
+/* Base Colors */
+  --color-primary-wood: #786C3B;
+  --color-primary-dark-wood: #452B1F;
+  --color-accent-metal: #FFC400;
+  --color-accent-warm-gold: #FFD700;
+  --color-neutral-light: #F5F5DC;
+  --color-neutral-dark: #333333;
+  --color-surface: #E5E5E5;
+  --color-text-primary: #222222;
+  --color-text-secondary: #555555;
+  --color-border-default: #C0B9A9;
+  --color-border-hover: #A89F82;
+  --color-background-light: #FDFDFD;
+  --color-background-dark: #222222;
+
+  /* Wood Shades */
+  --wood-100: #E8E1D3;
+  --wood-200: #D2C8B1;
+  --wood-300: #BBAE8F;
+  --wood-400: #A5956D;
+  --wood-500: #8C7B4B;
+  --wood-600: #786C3B;
+  --wood-700: #655C2A;
+  --wood-800: #524B19;
+  --wood-900: #452B1F;
+
+  /* Metal Shades */
+  --metal-100: #FFF5E5;
+  --metal-200: #FFE9B3;
+  --metal-300: #FFDC80;
+  --metal-400: #FFD04D;
+  --metal-500: #FFC400;
+  --metal-600: #E6B200;
+  --metal-700: #CC9C00;
+  --metal-800: #B38600;
+  --metal-900: #996000;
+
+  /* Gold Shades */
+  --gold-100: #FFFDE6;
+  --gold-200: #FFF9B3;
+  --gold-300: #FFF680;
+  --gold-400: #FFF34D;
+  --gold-500: #FFD700;
+  --gold-600: #E6C200;
+  --gold-700: #CCB100;
+  --gold-800: #B38E00;
+  --gold-900: #996600;
+
+  /* Neutral Shades */
+  --neutral-100: #FDFDFD;
+  --neutral-200: #F5F5F5;
+  --neutral-300: #EDEDED;
+  --neutral-400: #D4CFC6;
+  --neutral-500: #C0B9A9;
+  --neutral-600: #A89F82;
+  --neutral-700: #8C7B5E;
+  --neutral-800: #715F42;
+  --neutral-900: #5B4D2C;
+
+  /* Typography */
+  --font-family-heading: 'Merriweather', serif;
+  --font-family-body: 'Lato', sans-serif;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.5rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.75rem;
+  --font-size-h5: 1.5rem;
+  --font-size-h6: 1.25rem;
+  --font-size-body: 1rem;
+  --font-size-caption: 0.875rem;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-base: 1.5;
+  --line-height-heading: 1.25;
+
+  /* Spacing */
+  --spacing-xxs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 40px;
+  --spacing-xxxl: 48px;
+
+  /* Borders & Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.15);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.2);
+
+  /* Z-Index */
+  --z-index-dropdown: 1000;
+  --z-index-modal: 2000;
+  --z-index-tooltip: 3000;
+
+  /* Breakpoints */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1440px;
+
+  /* Animations */
+  --animation-duration-fast: 150ms;
+  --animation-duration-medium: 300ms;
+  --animation-duration-slow: 600ms;
+  --transition-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Focus Ring */
+  --focus-ring: 0 0 0 3px rgba(255, 200, 0, 0.4);
+
+  /* Text Transform */
+  --text-transform-uppercase: uppercase;
+  --text-transform-capitalize: capitalize;
+
+
+  /* === Added by Design Tokens Agent === */
+/* Color palette */
+  --color-wood-primary: #786C3B;
+  --color-wood-dark: #452B1F;
+  --color-wood-walnut: #5D3A1C;
+  --color-wood-cherry: #8B2500;
+  --color-wood-mahogany: #4E2C1C;
+  --color-metal-accent: #FFC400;
+  --color-metal-gold: #FFD700;
+  --color-metal-bronze: #CD7F32;
+  --color-metal-brass: #B5A642;
+  --color-metal-steel: #4A4A4A;
+  --color-neutral-light: #F5F5DC;
+  --color-neutral-dark: #333333;
+  --color-neutral-muted: #A9A9A9;
+  --color-neutral-warm-taupe: #D2B48C;
+  --color-neutral-charcoal: #2C2C2C;
+  --color-bg-primary: #E5E5E5;
+  --color-bg-secondary: #F5F5DC;
+  --color-text-primary: #222222;
+  --color-text-secondary: #555555;
+  --color-border-default: #CCCCCC;
+
+  /* Typography */
+  --font-family-sans: 'Inter', sans-serif;
+  --font-family-serif: 'Merriweather', serif;
+  --font-size-xxs: 0.75rem;
+  --font-size-xs: 0.875rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --line-height-base: 1.6;
+
+  /* Spacing */
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows & Transitions */
+  --box-shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --box-shadow-md: 0 4px 6px rgba(0,0,0,0.15);
+  --transition-fast: 0.2s ease-in-out;
+
+  /* Z-index */
+  --z-index-modal: 1000;
+}

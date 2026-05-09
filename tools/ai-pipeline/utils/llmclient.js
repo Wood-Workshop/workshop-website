@@ -1,6 +1,7 @@
 import { config } from '../config.js';
 
-export async function callLLM(systemPrompt, userPrompt, requireJson = true) {
+export async function callLLM(systemPrompt, userPrompt, requireJson = true,customModel = null) {
+    const modelToUse = customModel || config.model
 
     let finalSystemPrompt = systemPrompt;
 
@@ -15,7 +16,7 @@ export async function callLLM(systemPrompt, userPrompt, requireJson = true) {
                 "Authorization": `Bearer ${config.apiKey}`
             },
             body: JSON.stringify({
-                model: config.model,
+                model: modelToUse,
                 messages: [
                     { role: "system", content: finalSystemPrompt },
                     { role: "user", content: userPrompt }
